@@ -34,20 +34,20 @@
         </div>
     </div>
     <div class="container-fluid bg-transparent">
-        <div class="container px-0"">
+        <div class="container px-0">
             <nav class="navbar navbar-light navbar-expand-xl" >
                 <a href="index.html" class="navbar-brand mt-3">
                     <p class="text-light display-6 mb-2" style="line-height: 0;">Newsers</p>
                     <small class="text-body fw-normal" style="letter-spacing: 12px;">Nespaper</small>
                 </a>
                 <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars text-primary"></span>
+                    <span class="fa fa-bars text-light"></span>
                 </button>
                 <div class="collapse navbar-collapse bg-transparent py-3"  id="navbarCollapse">
                     <div class="navbar-nav mx-auto border-top">
                         <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="detail-page.html" class="nav-item nav-link">Detalhes</a>
-                        <a href="404.html" class="nav-item nav-link">404 Page</a>
+                        <a href="#" class="nav-item nav-link">Detalhes</a>
+                        <a href="#" class="nav-item nav-link">404 Page</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Dropdown</a>
                             <div class="dropdown-menu m-0 bg-secondary rounded-0">
@@ -57,7 +57,7 @@
                                 <a href="#" class="dropdown-item">Dropdown 4</a>
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Contactos</a>
+                        <a href="#" class="nav-item nav-link">Contactos</a>
                     </div>
                 </div>
             </nav>
