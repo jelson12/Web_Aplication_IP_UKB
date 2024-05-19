@@ -172,8 +172,8 @@
                 <p class="text-dark mb-4 pb-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
                 </p>
                 <div class="position-relative mx-auto">
-                    <input class="form-control w-100 py-3 rounded-pill" type="email" placeholder="Your Busines Email">
-                    <button type="submit" class="btn btn-primary py-3 px-5 position-absolute rounded-pill text-white h-100" style="top: 0; right: 0;">Subscreva.se</button>
+                    <input class="form-control w-100 py-3 rounded-pill" type="email" placeholder="Email">
+                    <button type="submit" class="btn btn-primary py-3 px-5 position-absolute rounded-pill h-100" style="top: 0; right: 0;">Subscreva-se</button>
                 </div>
             </div>
             <div class="col-lg-5">

@@ -1,29 +1,13 @@
 <!-- Footer Start -->
 <div class="container-fluid bg-transparent footer py-5">
     <div class="container py-5">
-        <div class="pb-4 mb-4" style="border-bottom: 1px solid rgba(255, 255, 255, 0.08);">
-            <div class="row g-4">
-                <div class="col-lg-3">
-                    <a href="#" class="d-flex flex-column flex-wrap">
-                        <p class="text-white mb-0 display-6">Newsers</p>
-                        <small class="text-light" style="letter-spacing: 11px; line-height: 0;">Newspaper</small>
-                    </a>
-                </div>
-                <div class="col-lg-9">
-                    <div class="d-flex position-relative rounded-pill overflow-hidden">
-                        <input class="form-control border-0 w-100 py-3 rounded-pill" type="email" placeholder="example@gmail.com">
-                        <button type="submit" class="btn btn-primary border-0 py-3 px-5 rounded-pill text-white position-absolute" style="top: 0; right: 0;">Subscreva-se</button>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="row g-5">
             <div class="col-lg-6 col-xl-3">
                 <div class="footer-item-1">
                     <h4 class="mb-4 text-white">Contacte-nos</h4>
-                    <p class="text-secondary line-h">Endereço: <span class="text-white">123 Streat, New York</span></p>
-                    <p class="text-secondary line-h">Email: <span class="text-white">Example@gmail.com</span></p>
-                    <p class="text-secondary line-h">Telefone: <span class="text-white">+244 940733032</span></p>
+                    <p class="text-dark line-h">Endereço: <span class="text-white">123 Streat, New York</span></p>
+                    <p class="text-dark line-h">Email: <span class="text-white">Example@gmail.com</span></p>
+                    <p class="text-dark line-h">Telefone: <span class="text-white">+244 940733032</span></p>
                     <div class="d-flex line-h">
                         <a class="btn btn-light me-2 btn-md-square rounded-circle" href=""><i class="fab fa-twitter text-dark"></i></a>
                         <a class="btn btn-light me-2 btn-md-square rounded-circle" href=""><i class="fab fa-facebook-f text-dark"></i></a>

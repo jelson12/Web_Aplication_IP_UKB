@@ -3184,14 +3184,14 @@ fieldset:disabled .btn {
 
 .btn-secondary {
     color: #000;
-    background-color: #747d88;
-    border-color: #747d88
+    background-color: snow;
+    border-color: #624bff
 }
 
 .btn-secondary:hover {
-    color: #000;
-    background-color: #89919a;
-    border-color: #828a94
+    color: snow;
+    background-color: #624bff;
+    border-color: snow
 }
 
 .btn-check:focus+.btn-secondary,
@@ -8343,7 +8343,7 @@ fieldset:disabled .btn {
 }
 
 .text-primary {
-    color: #1b7dff !important
+    color: #624bff !important
 }
 
 .text-secondary {
