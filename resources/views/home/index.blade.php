@@ -960,35 +960,6 @@
                     <div class="row g-4">
                         <div class="col-12">
                             <div class="p-3 rounded border">
-                                <h4 class="mb-4">Fique conectado</h4>
-                                <div class="row g-4">
-                                    <div class="col-12">
-                                        <a href="#" class="w-100 rounded btn btn-primary d-flex align-items-center p-3 mb-2">
-                                            <i class="fab fa-facebook-f btn btn-light btn-square rounded-circle me-3"></i>
-                                            <span class="text-white">13,977 Fãs</span>
-                                        </a>
-                                        <a href="#" class="w-100 rounded btn btn-danger d-flex align-items-center p-3 mb-2">
-                                            <i class="fab fa-twitter btn btn-light btn-square rounded-circle me-3"></i>
-                                            <span class="text-white">21,798 Seguidores</span>
-                                        </a>
-                                        <a href="#" class="w-100 rounded btn btn-warning d-flex align-items-center p-3 mb-2">
-                                            <i class="fab fa-youtube btn btn-light btn-square rounded-circle me-3"></i>
-                                            <span class="text-white">7,999 Inscritos</span>
-                                        </a>
-                                        <a href="#" class="w-100 rounded btn btn-dark d-flex align-items-center p-3 mb-2">
-                                            <i class="fab fa-instagram btn btn-light btn-square rounded-circle me-3"></i>
-                                            <span class="text-white">19,764 Seguidores</span>
-                                        </a>
-                                        <a href="#" class="w-100 rounded btn btn-secondary d-flex align-items-center p-3 mb-2">
-                                            <i class="bi-cloud btn btn-light btn-square rounded-circle me-3"></i>
-                                            <span class="text-white">31,999 Inscritos</span>
-                                        </a>
-                                        <a href="#" class="w-100 rounded btn btn-warning d-flex align-items-center p-3 mb-4">
-                                            <i class="fab fa-dribbble btn btn-light btn-square rounded-circle me-3"></i>
-                                            <span class="text-white">37,999 Inscritos</span>
-                                        </a>
-                                    </div>
-                                </div>
                                 <h4 class="my-4">Notícias Populares</h4>
                                 <div class="row g-4">
                                     <div class="col-12">
