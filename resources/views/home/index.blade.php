@@ -2,11 +2,7 @@
 @section('title', 'Newspaper')
 
 @section('content')
-<!-- Spinner Start -->
-<div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
-    <div class="spinner-grow text-primary" role="status"></div>
-</div>
-<!-- Spinner End -->
+
 <!-- Main Post Section Start -->
 <div class="container-fluid py-5">
     <div class="container py-5">

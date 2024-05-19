@@ -169,7 +169,7 @@
 .navbar .navbar-nav .nav-link.active,
 .sticky-top.bg-white .navbar .navbar-nav .nav-link:hover,
 .sticky-top.bg-white .navbar .navbar-nav .nav-link.active {
-    color: #1b7dff
+    color: black;
 }
 
 .navbar .dropdown-toggle::after {
