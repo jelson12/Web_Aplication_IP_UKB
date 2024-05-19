@@ -20,8 +20,8 @@
             $('.sticky-top').removeClass('shadow-sm').css('top', '-200px');
         }
     });
-    
-    
+
+
    // Back to top button
    $(window).scroll(function () {
     if ($(this).scrollTop() > 300) {
@@ -126,3 +126,33 @@
 
 })(jQuery);
 
+document.addEventListener('DOMContentLoaded', (event) => {
+    const showRegisterLink = document.getElementById('showRegister');
+    const showLoginLink = document.getElementById('showLogin');
+    const showForgotLink = document.getElementById('showForgot');
+    const backToLoginLink = document.getElementById('backToLogin');
+
+    const loginSection = document.getElementById('loginSection');
+    const registerSection = document.getElementById('registerSection');
+    const forgotSection = document.getElementById('forgotSection');
+
+    showRegisterLink.addEventListener('click', () => {
+        loginSection.classList.remove('active');
+        registerSection.classList.add('active');
+    });
+
+    showLoginLink.addEventListener('click', () => {
+        registerSection.classList.remove('active');
+        loginSection.classList.add('active');
+    });
+
+    showForgotLink.addEventListener('click', () => {
+        loginSection.classList.remove('active');
+        forgotSection.classList.add('active');
+    });
+
+    backToLoginLink.addEventListener('click', () => {
+        forgotSection.classList.remove('active');
+        loginSection.classList.add('active');
+    });
+});
