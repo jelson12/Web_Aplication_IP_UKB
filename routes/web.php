@@ -15,4 +15,16 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home.index');
-});
+})->name('home');
+
+Route::get('/detalhes', function() {
+    return view('home.detalhes');
+})->name('detalhes');
+
+Route::get('/contactos', function() {
+    return view('home.contactos');
+})->name('contactos');
+
+Route::get('/404', function() {
+    return view('error.404');
+})->name('404');
