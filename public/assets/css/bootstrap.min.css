@@ -3194,8 +3194,7 @@ fieldset:disabled .btn {
     border-color: snow
 }
 
-.btn-check:focus+.btn-secondary,
-.btn-secondary:focus {
+.btn-check:focus+.btn-secondary {
     color: #000;
     background-color: #89919a;
     border-color: #828a94;
