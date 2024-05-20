@@ -1,5 +1,6 @@
 @extends('home.layout.default')
 @section('title', 'Newspaper')
+@section('contacto', 'active')
 
 @section('content')
 
