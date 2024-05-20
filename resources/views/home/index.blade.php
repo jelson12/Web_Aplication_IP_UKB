@@ -24,7 +24,7 @@
                 </p>
                 <div class="bg-light p-4 rounded">
                     <div class="news-2">
-                        <h3 class="mb-4">Top Story</h3>
+                        <h3 class="mb-4">Notícia Principal</h3>
                     </div>
                     <div class="row g-4 align-items-center">
                         <div class="col-md-6">
@@ -34,7 +34,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="d-flex flex-column">
-                                <a href="#" class="h3">Stoneman Clandestine Ukrainian claims successes against Russian.</a>
+                                <a href="#" class="h3">O teste ao primeiro telescópio.</a>
                                 <p class="mb-0 fs-5"><i class="fa fa-clock"> Lida a 06 minutos</i> </p>
                                 <p class="mb-0 fs-5"><i class="fa fa-eye"> 3.5 mil visualizações</i></p>
                             </div>
@@ -167,7 +167,7 @@
     <div class="container">
         <div class="row g-4 align-items-center">
             <div class="col-lg-7">
-                <h1 class="mb-4 text-primary">Newsers</h1>
+                <h1 class="mb-4 text-primary">IP-News</h1>
                 <h1 class="mb-4">Receba as novas notícias semanais</h1>
                 <p class="text-dark mb-4 pb-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
                 </p>
@@ -200,8 +200,8 @@
                     <div class="d-flex flex-column p-4">
                         <a href="#" class="h4">Lorem Ipsum is simply dummy text of...</a>
                         <div class="d-flex justify-content-between">
-                            <a href="#" class="small text-body link-hover">by Willum Skeem</a>
-                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                            <a href="#" class="small text-body link-hover">por Jelson Rocha</a>
+                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 09 Dezembro, 2024</small>
                         </div>
                     </div>
                 </div>
@@ -214,8 +214,8 @@
                     <div class="d-flex flex-column p-4">
                         <a href="#" class="h4">Lorem Ipsum is simply dummy text of...</a>
                         <div class="d-flex justify-content-between">
-                            <a href="#" class="small text-body link-hover">by Willum Skeem</a>
-                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                            <a href="#" class="small text-body link-hover">por Frederico Dúlio</a>
+                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 08 de Agosto, 2024</small>
                         </div>
                     </div>
                 </div>
@@ -228,8 +228,8 @@
                     <div class="d-flex flex-column p-4">
                         <a href="#" class="h4">Lorem Ipsum is simply dummy text of...</a>
                         <div class="d-flex justify-content-between">
-                            <a href="#" class="small text-body link-hover">by Willum Skeem</a>
-                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                            <a href="#" class="small text-body link-hover">por Wandelson Silva</a>
+                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i>02 de Janeiro, 2024</small>
                         </div>
                     </div>
                 </div>
@@ -242,8 +242,8 @@
                     <div class="d-flex flex-column p-4">
                         <a href="#" class="h4">Lorem Ipsum is simply dummy text of...</a>
                         <div class="d-flex justify-content-between">
-                            <a href="#" class="small text-body link-hover">by Willum Skeem</a>
-                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                            <a href="#" class="small text-body link-hover">por Jelson Rocha</a>
+                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                         </div>
                     </div>
                 </div>
@@ -256,8 +256,8 @@
                     <div class="d-flex flex-column p-4">
                         <a href="#" class="h4 ">Lorem Ipsum is simply dummy text of...</a>
                         <div class="d-flex justify-content-between">
-                            <a href="#" class="small text-body link-hover">by Willum Skeem</a>
-                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                            <a href="#" class="small text-body link-hover">por Jelson Rocha</a>
+                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                         </div>
                     </div>
                 </div>
@@ -284,12 +284,12 @@
                             </li>
                             <li class="nav-item mb-3">
                                 <a class="d-flex py-2 bg-light rounded-pill me-2" data-bs-toggle="pill" href="#tab-2">
-                                    <span class="text-dark" style="width: 100px;">Magazine</span>
+                                    <span class="text-dark" style="width: 100px;">Eventos</span>
                                 </a>
                             </li>
                             <li class="nav-item mb-3">
                                 <a class="d-flex py-2 bg-light rounded-pill me-2" data-bs-toggle="pill" href="#tab-3">
-                                    <span class="text-dark" style="width: 100px;">Politics</span>
+                                    <span class="text-dark" style="width: 100px;">Politica</span>
                                 </a>
                             </li>
                             <li class="nav-item mb-3">
@@ -299,7 +299,7 @@
                             </li>
                             <li class="nav-item mb-3">
                                 <a class="d-flex py-2 bg-light rounded-pill me-2" data-bs-toggle="pill" href="#tab-5">
-                                    <span class="text-dark" style="width: 100px;">Fashion</span>
+                                    <span class="text-dark" style="width: 100px;">Projectos</span>
                                 </a>
                             </li>
                         </ul>
@@ -339,7 +339,7 @@
                                                     <div class="features-content d-flex flex-column">
                                                         <p class="text-uppercase mb-2">Desporto</p>
                                                         <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -355,7 +355,7 @@
                                                     <div class="features-content d-flex flex-column">
                                                         <p class="text-uppercase mb-2">Desporto</p>
                                                         <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -371,7 +371,7 @@
                                                     <div class="features-content d-flex flex-column">
                                                         <p class="text-uppercase mb-2">Desporto</p>
                                                         <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -387,7 +387,7 @@
                                                     <div class="features-content d-flex flex-column">
                                                         <p class="text-uppercase mb-2">Desporto</p>
                                                         <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -401,9 +401,9 @@
                                                 </div>
                                                 <div class="col-7">
                                                     <div class="features-content d-flex flex-column">
-                                                        <p class="text-uppercase mb-2">Magazine</p>
+                                                        <p class="text-uppercase mb-2">Eventos</p>
                                                         <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -418,7 +418,7 @@
                                     <div class="position-relative rounded overflow-hidden">
                                         <img src="{{asset('assets/img/news-1.jpg')}}" class="img-zoomin img-fluid rounded w-100" alt="">
                                         <div class="position-absolute text-white px-4 py-2 bg-primary rounded" style="top: 20px; right: 20px;">
-                                            Magazine
+                                            Eventos
                                         </div>
                                     </div>
                                     <div class="my-3">
@@ -444,9 +444,9 @@
                                                 </div>
                                                 <div class="col-7">
                                                     <div class="features-content d-flex flex-column">
-                                                        <p class="text-uppercase mb-2">Magazine</p>
+                                                        <p class="text-uppercase mb-2">Eventos</p>
                                                         <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -460,9 +460,9 @@
                                                 </div>
                                                 <div class="col-7">
                                                     <div class="features-content d-flex flex-column">
-                                                        <p class="text-uppercase mb-2">Magazine</p>
+                                                        <p class="text-uppercase mb-2">Eventos</p>
                                                         <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -476,9 +476,9 @@
                                                 </div>
                                                 <div class="col-7">
                                                     <div class="features-content d-flex flex-column">
-                                                        <p class="text-uppercase mb-2">Magazine</p>
+                                                        <p class="text-uppercase mb-2">Eventos</p>
                                                         <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -492,9 +492,9 @@
                                                 </div>
                                                 <div class="col-7">
                                                     <div class="features-content d-flex flex-column">
-                                                        <p class="text-uppercase mb-2">Magazine</p>
+                                                        <p class="text-uppercase mb-2">Eventos</p>
                                                         <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -508,9 +508,9 @@
                                                 </div>
                                                 <div class="col-7">
                                                     <div class="features-content d-flex flex-column">
-                                                        <p class="text-uppercase mb-2">Magazine</p>
+                                                        <p class="text-uppercase mb-2">Eventos</p>
                                                         <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -525,7 +525,7 @@
                                     <div class="position-relative rounded overflow-hidden">
                                         <img src="{{asset('assets/img/news-1.jpg')}}" class="img-zoomin img-fluid rounded w-100" alt="">
                                         <div class="position-absolute text-white px-4 py-2 bg-primary rounded" style="top: 20px; right: 20px;">
-                                            Politics
+                                            Política
                                         </div>
                                     </div>
                                     <div class="my-3">
@@ -551,9 +551,9 @@
                                                 </div>
                                                 <div class="col-7">
                                                     <div class="features-content d-flex flex-column">
-                                                        <p class="text-uppercase mb-2">Politics</p>
+                                                        <p class="text-uppercase mb-2">Política</p>
                                                         <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -567,9 +567,9 @@
                                                 </div>
                                                 <div class="col-7">
                                                     <div class="features-content d-flex flex-column">
-                                                        <p class="text-uppercase mb-2">Politics</p>
+                                                        <p class="text-uppercase mb-2">Política</p>
                                                         <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -583,9 +583,9 @@
                                                 </div>
                                                 <div class="col-7">
                                                     <div class="features-content d-flex flex-column">
-                                                        <p class="text-uppercase mb-2">Politics</p>
+                                                        <p class="text-uppercase mb-2">Política</p>
                                                         <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -599,9 +599,9 @@
                                                 </div>
                                                 <div class="col-7">
                                                     <div class="features-content d-flex flex-column">
-                                                        <p class="text-uppercase mb-2">Politics</p>
+                                                        <p class="text-uppercase mb-2">Política</p>
                                                         <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -615,9 +615,9 @@
                                                 </div>
                                                 <div class="col-7">
                                                     <div class="features-content d-flex flex-column">
-                                                        <p class="text-uppercase mb-2">Politics</p>
+                                                        <p class="text-uppercase mb-2">Política</p>
                                                         <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -660,7 +660,7 @@
                                                     <div class="features-content d-flex flex-column">
                                                         <p class="text-uppercase mb-2">Tecnológia</p>
                                                         <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -676,7 +676,7 @@
                                                     <div class="features-content d-flex flex-column">
                                                         <p class="text-uppercase mb-2">Tecnológia</p>
                                                         <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -692,7 +692,7 @@
                                                     <div class="features-content d-flex flex-column">
                                                         <p class="text-uppercase mb-2">Tecnológia</p>
                                                         <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -708,7 +708,7 @@
                                                     <div class="features-content d-flex flex-column">
                                                         <p class="text-uppercase mb-2">Tecnológia</p>
                                                         <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -724,7 +724,7 @@
                                                     <div class="features-content d-flex flex-column">
                                                         <p class="text-uppercase mb-2">Tecnológia</p>
                                                         <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -739,7 +739,7 @@
                                     <div class="position-relative rounded overflow-hidden">
                                         <img src="{{asset('assets/img/news-1.jpg')}}" class="img-zoomin img-fluid rounded w-100" alt="">
                                         <div class="position-absolute text-white px-4 py-2 bg-primary rounded" style="top: 20px; right: 20px;">
-                                            Fashion
+                                            Projectos
                                         </div>
                                     </div>
                                     <div class="my-3">
@@ -765,9 +765,9 @@
                                                 </div>
                                                 <div class="col-7">
                                                     <div class="features-content d-flex flex-column">
-                                                        <p class="text-uppercase mb-2">Fashion</p>
+                                                        <p class="text-uppercase mb-2">Projectos</p>
                                                         <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -781,9 +781,9 @@
                                                 </div>
                                                 <div class="col-7">
                                                     <div class="features-content d-flex flex-column">
-                                                        <p class="text-uppercase mb-2">Fashion</p>
+                                                        <p class="text-uppercase mb-2">Projectos</p>
                                                         <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -797,9 +797,9 @@
                                                 </div>
                                                 <div class="col-7">
                                                     <div class="features-content d-flex flex-column">
-                                                        <p class="text-uppercase mb-2">Fashion</p>
+                                                        <p class="text-uppercase mb-2">Projectos</p>
                                                         <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -813,9 +813,9 @@
                                                 </div>
                                                 <div class="col-7">
                                                     <div class="features-content d-flex flex-column">
-                                                        <p class="text-uppercase mb-2">Fashion</p>
+                                                        <p class="text-uppercase mb-2">Projectos</p>
                                                         <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -829,9 +829,9 @@
                                                 </div>
                                                 <div class="col-7">
                                                     <div class="features-content d-flex flex-column">
-                                                        <p class="text-uppercase mb-2">Fashion</p>
+                                                        <p class="text-uppercase mb-2">Projectos</p>
                                                         <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -853,8 +853,8 @@
                                 <div class="d-flex flex-column p-4">
                                     <a href="#" class="h4">There are many variations of passages of Lorem Ipsum available,</a>
                                     <div class="d-flex justify-content-between">
-                                        <a href="#" class="small text-body link-hover">by Willium Smith</a>
-                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                        <a href="#" class="small text-body link-hover">Por Wandelson Silva</a>
+                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                     </div>
                                 </div>
                             </div>
@@ -867,8 +867,8 @@
                                 <div class="d-flex flex-column p-4">
                                     <a href="#" class="h4">There are many variations of passages of Lorem Ipsum available,</a>
                                     <div class="d-flex justify-content-between">
-                                        <a href="#" class="small text-body link-hover">by Willium Smith</a>
-                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                        <a href="#" class="small text-body link-hover">Por Jelson Rocha</a>
+                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                     </div>
                                 </div>
                             </div>
@@ -881,8 +881,8 @@
                                 <div class="d-flex flex-column p-4">
                                     <a href="#" class="h4">There are many variations of passages of Lorem Ipsum available,</a>
                                     <div class="d-flex justify-content-between">
-                                        <a href="#" class="small text-body link-hover">by Willium Smith</a>
-                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                        <a href="#" class="small text-body link-hover">Por Frederico Dúlio</a>
+                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                     </div>
                                 </div>
                             </div>
@@ -895,8 +895,8 @@
                                 <div class="d-flex flex-column p-4">
                                     <a href="#" class="h4">There are many variations of passages of Lorem Ipsum available,</a>
                                     <div class="d-flex justify-content-between">
-                                        <a href="#" class="small text-body link-hover">by Willium Smith</a>
-                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                        <a href="#" class="small text-body link-hover">Por Wandelson Silva</a>
+                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                     </div>
                                 </div>
                             </div>
@@ -909,8 +909,8 @@
                                 <div class="d-flex flex-column p-4">
                                     <a href="#" class="h4">There are many variations of passages of Lorem Ipsum available,</a>
                                     <div class="d-flex justify-content-between">
-                                        <a href="#" class="small text-body link-hover">by Willium Smith</a>
-                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                        <a href="#" class="small text-body link-hover">Por Frederico Dúlio</a>
+                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                     </div>
                                 </div>
                             </div>
@@ -918,7 +918,7 @@
                     </div>
                     <div class="mt-5 lifestyle">
                         <div class="border-bottom mb-4">
-                            <h1 class="mb-4">Life Style</h1>
+                            <h1 class="mb-4">Estilo de Vida</h1>
                         </div>
                         <div class="row g-4">
                             <div class="col-lg-6">
@@ -928,8 +928,8 @@
                                        <div class="mt-auto">
                                             <a href="#" class="h4 text-white link-hover">There are many variations of passages of Lorem Ipsum available,</a>
                                             <div class="d-flex justify-content-between mt-4">
-                                                <a href="#" class="small text-white link-hover">By Willium Smith</a>
-                                                <small class="text-white d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                <a href="#" class="small text-white link-hover">Por Jelson Rocha</a>
+                                                <small class="text-white d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                             </div>
                                        </div>
                                     </div>
@@ -942,8 +942,8 @@
                                        <div class="mt-auto">
                                             <a href="#" class="h4 text-white link-hover">There are many variations of passages of Lorem Ipsum available,</a>
                                             <div class="d-flex justify-content-between mt-4">
-                                                <a href="#" class="small text-white link-hover">By Willium Smith</a>
-                                                <small class="text-white d-block"><i class="fas fa-calendar-alt me-1"></i> Dec 9, 2024</small>
+                                                <a href="#" class="small text-white link-hover">Por Frederico Dúlio</a>
+                                                <small class="text-white d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                             </div>
                                        </div>
                                     </div>
@@ -1012,7 +1012,7 @@
                                             </div>
                                             <div class="col-8">
                                                 <div class="features-content d-flex flex-column">
-                                                    <p class="text-uppercase mb-2">Fashion</p>
+                                                    <p class="text-uppercase mb-2">Projectos</p>
                                                     <a href="#" class="h6">
                                                         As melhores notícias do mercado.
                                                     </a>
@@ -1033,7 +1033,7 @@
                                             </div>
                                             <div class="col-8">
                                                 <div class="features-content d-flex flex-column">
-                                                    <p class="text-uppercase mb-2">Life Style</p>
+                                                    <p class="text-uppercase mb-2">Estilo de Vida</p>
                                                     <a href="#" class="h6">
                                                         As melhores notícias do mercado.
                                                     </a>
@@ -1062,17 +1062,17 @@
                                             </li>
                                             <li class="nav-item mb-3">
                                                 <a class="d-flex py-2 bg-light rounded-pill me-2" href="#">
-                                                    <span class="text-dark link-hover" style="width: 90px;">Politics</span>
+                                                    <span class="text-dark link-hover" style="width: 90px;">Política</span>
                                                 </a>
                                             </li>
                                             <li class="nav-item mb-3">
                                                 <a class="d-flex py-2 bg-light rounded-pill me-2" href="#">
-                                                    <span class="text-dark link-hover" style="width: 90px;">Magazine</span>
+                                                    <span class="text-dark link-hover" style="width: 90px;">Eventos</span>
                                                 </a>
                                             </li>
                                             <li class="nav-item mb-3">
                                                 <a class="d-flex py-2 bg-light rounded-pill me-2" href="#">
-                                                    <span class="text-dark link-hover" style="width: 90px;">Game</span>
+                                                    <span class="text-dark link-hover" style="width: 90px;">Projectos</span>
                                                 </a>
                                             </li>
                                             <li class="nav-item mb-3">
@@ -1082,12 +1082,12 @@
                                             </li>
                                             <li class="nav-item mb-3">
                                                 <a class="d-flex py-2 bg-light rounded-pill me-2" href="#">
-                                                    <span class="text-dark link-hover" style="width: 90px;">Travel</span>
+                                                    <span class="text-dark link-hover" style="width: 90px;">Viagens académicas</span>
                                                 </a>
                                             </li>
                                             <li class="nav-item mb-3">
                                                 <a class="d-flex py-2 bg-light rounded-pill me-2" href="#">
-                                                    <span class="text-dark link-hover" style="width: 90px;">World</span>
+                                                    <span class="text-dark link-hover" style="width: 90px;">Outras notícias</span>
                                                 </a>
                                             </li>
                                         </ul>

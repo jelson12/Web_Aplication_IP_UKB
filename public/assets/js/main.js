@@ -156,3 +156,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
         loginSection.classList.add('active');
     });
 });
+
+const note = document.getElementById('note');
+const items = note.querySelectorAll('.note-item');
+
+items.forEach((item) => {
+    const clone = item.cloneNode(true);
+    note.appendChild(clone);
+});
