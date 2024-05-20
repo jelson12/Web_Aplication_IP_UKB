@@ -5,7 +5,7 @@
             <div class="col-lg-6 col-xl-3">
                 <div class="footer-item-1">
                     <h4 class="mb-4 text-white">Contacte-nos</h4>
-                    <p class="text-dark line-h">Endereço: <span class="text-white">123 Streat, New York</span></p>
+                    <p class="text-dark line-h">Endereço: <span class="text-white">UKB Catumbela-Benguela</span></p>
                     <p class="text-dark line-h">Email: <span class="text-white">Example@gmail.com</span></p>
                     <p class="text-dark line-h">Telefone: <span class="text-white">+244 940733032</span></p>
                     <div class="d-flex line-h">

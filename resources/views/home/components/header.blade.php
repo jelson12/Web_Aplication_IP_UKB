@@ -77,26 +77,13 @@
                         <i class="fas fa-bolt text-white"></i>
                     </span>
                     <div class="pe-2 me-3 border-end border-dark d-flex align-items-center">
-                        <p class="mb-0 text-dark fs-6 fw-normal">Trending</p>
+                        <p class="mb-0 text-dark fs-6 fw-normal">Tendência</p>
                     </div>
                     <div class="overflow-hidden" style="width: 735px;">
                         <div id="note" class="ps-2">
                             <img src="{{asset('assets/img/features-fashion.jpg')}}" class="img-fluid rounded-circle border border-3 border-primary me-2" style="width: 30px; height: 30px;" alt="">
-                            <a href="#"><p class="text-dark mb-0 link-hover">Newsan unknown printer took a galley of type andscrambled Newsan.</p></a>
+                            <a href="#"><p class="text-dark mb-0 link-hover">Convênio entre a UKB e o banco BCI gera bolsa de estudos aos estudantes.</p></a>
                         </div>
-                    </div>
-                </div>
-                <div class="top-link flex-lg-wrap">
-                    <i class="fas fa-calendar-alt text-white border-end border-secondary pe-2 me-2"> <span class="text-body">Tuesday, Sep 12, 2024</span></i>
-                    <div class="d-flex icon">
-                        <p class="mb-0 text-white me-2">Siga-nos:</p>
-                        <a href="" class="me-2"><i class="fab fa-facebook-f text-body link-hover"></i></a>
-                        <a href="" class="me-2"><i class="fab fa-twitter text-body link-hover"></i></a>
-                        <a href="" class="me-2"><i class="fab fa-instagram text-body link-hover"></i></a>
-                        <a href="" class="me-2"><i class="fab fa-youtube text-body link-hover"></i></a>
-                        <a href="" class="me-2"><i class="fab fa-linkedin-in text-body link-hover"></i></a>
-                        <a href="" class="me-2"><i class="fab fa-skype text-body link-hover"></i></a>
-                        <a href="" class=""><i class="fab fa-pinterest-p text-body link-hover"></i></a>
                     </div>
                 </div>
             </div>
@@ -106,8 +93,8 @@
         <div class="container px-0">
             <nav class="navbar navbar-light navbar-expand-xl" >
                 <a href="{{route('home')}}" class="navbar-brand mt-3">
-                    <p class="text-light display-6 mb-2" style="line-height: 0;">Newsers</p>
-                    <small class="text-dark fw-normal" style="letter-spacing: 12px;">Nespaper</small>
+                    <p class="text-light display-6 mb-2" style="line-height: 0;">IP-News</p>
+                    <small class="text-dark fw-normal" style="letter-spacing: 12px;">Newspaper</small>
                 </a>
                 <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars text-light"></span>
