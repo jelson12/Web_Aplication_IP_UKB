@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateArtigosTable extends Migration
+class CreateAdminsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,8 @@ class CreateArtigosTable extends Migration
      */
     public function up()
     {
-        Schema::create('artigos', function (Blueprint $table) {
+        Schema::create('admins', function (Blueprint $table) {
             $table->id();
-            $table->autor("string", 155);
-            $table->titulo("string", 255);
-            $table->foreignId('user_id')
-                ->constrained()
-                ->cascadeOnUpdate();
             $table->timestamps();
         });
     }
@@ -31,6 +26,6 @@ class CreateArtigosTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('artigos');
+        Schema::dropIfExists('admins');
     }
 }

@@ -15,7 +15,7 @@
                 <section id="loginSection" class="active">
                     <form>
                         <div class="mb-3">
-                            <input type="email" class="form-control" id="loginEmail" placeholder="Email" required>
+                            <input type="email" class="form-control" id="loginEmail" placeholder="Email" autofocus required autocomplete="off">
                         </div>
                         <div class="mb-3">
                             <input type="password" class="form-control" id="loginPassword" placeholder="Senha" required>
@@ -33,7 +33,7 @@
                 <section id="registerSection">
                     <form>
                         <div class="mb-3">
-                            <input type="text" class="form-control" id="registerName" placeholder="Nome" required>
+                            <input type="text" class="form-control" id="registerName" placeholder="Nome" required autofocus>
                         </div>
                         <div class="mb-3">
                             <input type="email" class="form-control" id="registerEmail" placeholder="Email" required>
@@ -48,7 +48,7 @@
                             <button type="submit" class=" btn btn-primary">Registrar</button>
                         </div>
                     </form>
-                    <p class="mt-3">Já tem uma conta? <a class="fs-5" href="#" id="showLogin">Entre</a></p>
+                    <p class="mt-3">Já tem uma conta? <a class="fs-5" href="#" id="showLogin">Login</a></p>
                 </section>
 
                 <section id="forgotSection">
@@ -89,37 +89,6 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-transparent">
-        <div class="container px-0">
-            <nav class="navbar navbar-light navbar-expand-xl" >
-                <a href="{{route('home')}}" class="navbar-brand mt-3">
-                    <p class="text-light display-6 mb-2" style="line-height: 0;">IP-News</p>
-                    <small class="text-dark fw-normal" style="letter-spacing: 12px;">Newspaper</small>
-                </a>
-                <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars text-light"></span>
-                </button>
-                <div class="collapse navbar-collapse bg-transparent py-3"  id="navbarCollapse">
-                    <div class="navbar-nav mx-auto border-top">
-                        <a href="{{route('home')}}" class="nav-item nav-link active">Home</a>
-                        <a href="{{route('detalhes')}}" class="nav-item nav-link">Artigos</a>
-                        <a href="{{route('404')}}" class="nav-item nav-link">404 Page</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Dropdown</a>
-                            <div class="dropdown-menu m-0 bg-secondary rounded-0">
-                                <a href="#" class="dropdown-item">Dropdown 1</a>
-                                <a href="#" class="dropdown-item">Dropdown 2</a>
-                                <a href="#" class="dropdown-item">Dropdown 3</a>
-                                <a href="#" class="dropdown-item">Dropdown 4</a>
-                            </div>
-                        </div>
-                        <a href="{{route('contactos')}}" class="nav-item nav-link">Contactos</a>
-                        <div class="d-grid"><button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#authModal">Login</button>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </div>
+  @include('home.components.partials.menu')
 </div>
 <!-- Navbar End -->
