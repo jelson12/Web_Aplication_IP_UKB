@@ -15,7 +15,7 @@
         <div class="row g-4">
             <div class="col-lg-8">
                 <div class="mb-4">
-                    <a href="#" class="h1 display-5">Artigos e revistas cientiífcas.</a>
+                    <a href="#" class="h1 display-5">Artigos e revistas científcas.</a>
                 </div>
                 <!-- Artigos publicados Start -->
                 <div class="container-fluid latest-news py-5">
