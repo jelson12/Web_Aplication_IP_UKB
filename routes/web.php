@@ -28,3 +28,7 @@ Route::get('/contactos', function() {
 Route::get('/404', function() {
     return view('error.404');
 })->name('404');
+
+Route::get('/user', function() {
+    return view('pages.user');
+})->name('user');

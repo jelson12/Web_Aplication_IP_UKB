@@ -22,6 +22,7 @@
     {{-- CSS --}}
 
     <link rel="stylesheet" href="{{ asset('assets/lib/animate/animate.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/feather.css')}}">
     <link rel="stylesheet" href="{{ asset('assets/lib/owlcarousel/assets/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
@@ -58,6 +59,7 @@
     <script src="{{ asset('assets/lib/waypoints/waypoints.min.js') }}"></script>
     <script src="{{ asset('assets/lib/owlcarousel/owl.carousel.min.js') }}"></script>
     <script src="{{ asset('assets/js/main.js') }}"></script>
+    <script src="{{ asset('assets/js/feather.min.js') }}"></script>
 
     @yield('custom_js_pre')
 </body>

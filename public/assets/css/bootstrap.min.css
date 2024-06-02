@@ -5170,6 +5170,25 @@ fieldset:disabled .btn {
     border-radius: 0
 }
 
+.avatar-md {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.avatar-group img {
+    border: 2px solid #fff;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+
 .breadcrumb {
     display: flex;
     flex-wrap: wrap;
@@ -8122,6 +8141,15 @@ fieldset:disabled .btn {
 .py-5 {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important
+}
+
+.py-6 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+
+.p-6 {
+    padding: 2rem !important;
 }
 
 .pt-0 {

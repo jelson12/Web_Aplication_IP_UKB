@@ -14,6 +14,11 @@
  }
 /*** Spinner End ***/
 
+.avatar-md {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
 .back-to-top {
     position: fixed;
     right: 30px;
@@ -147,7 +152,13 @@
     display: flex;
     align-items: center;
 }
+.nn {
+    padding-bottom: 2rem;
+}
 
+.nb {
+    padding-top: 2rem;
+}
 @keyframes noteAnimate {
     from {left: -735px;}
     to {left: 735px;}
