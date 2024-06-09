@@ -19,14 +19,14 @@
             <div class="col-lg-6 col-xl-3">
                 <div class="footer-item-2">
                     <div class="d-flex flex-column mb-4">
-                        <h4 class="mb-4 text-white">Notícias recents</h4>
+                        <h4 class="mb-4 text-white">Notícias recentes</h4>
                         <a href="#">
                             <div class="d-flex align-items-center">
                                 <div class="rounded-circle border border-2 border-primary overflow-hidden">
                                     <img src="{{asset('assets/img/footer-1.jpg')}}" class="img-zoomin img-fluid rounded-circle w-100" alt="">
                                 </div>
                                 <div class="d-flex flex-column ps-4">
-                                    <p class="text-uppercase text-white mb-3">Engeharia</p>
+                                    <p class="text-uppercase text-white mb-3">Engenharia</p>
                                     <a href="#" class="h6 text-white">
                                         As melhores notícias do mercado.
                                     </a>
@@ -42,7 +42,7 @@
                                     <img src="{{asset('assets/img/footer-2.jpg')}}" class="img-zoominimg-fluid rounded-circle w-100" alt="">
                                 </div>
                                 <div class="d-flex flex-column ps-4">
-                                    <p class="text-uppercase text-white mb-3">Médicina</p>
+                                    <p class="text-uppercase text-white mb-3">Medicina</p>
                                     <a href="#" class="h6 text-white">
                                         As melhores notícias do mercado.
                                     </a>
@@ -59,7 +59,7 @@
                     <a class="btn-link text-white" href=""><i class="fas fa-angle-right text-white me-2"></i> Ciencias Computação</a>
                     <a class="btn-link text-white" href=""><i class="fas fa-angle-right text-white me-2"></i> Engeharia Mecânica</a>
                     <a class="btn-link text-white" href=""><i class="fas fa-angle-right text-white me-2"></i> Lógistica e Transporte</a>
-                    <a class="btn-link text-white" href=""><i class="fas fa-angle-right text-white me-2"></i> Médicina Geral</a>
+                    <a class="btn-link text-white" href=""><i class="fas fa-angle-right text-white me-2"></i> Medicina Geral</a>
                     <a class="btn-link text-white" href=""><i class="fas fa-angle-right text-white me-2"></i> Economia</a>
                     <a class="btn-link text-white" href=""><i class="fas fa-angle-right text-white me-2"></i> Gestão</a>
                     <a class="btn-link text-white" href=""><i class="fas fa-angle-right text-white me-2"></i> Direito</a>
