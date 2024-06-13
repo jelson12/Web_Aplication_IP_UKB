@@ -17,6 +17,18 @@ Route::get('/', function () {
     return view('home.index');
 })->name('home');
 
+Route::get('/dashboard', function () {
+    return view('admin.dashboard');
+})->name('dashboard');
+
+Route::get('/perfil', function () {
+    return view('admin.perfil');
+})->name('perfil');
+
+Route::get('/edit-perfil', function() {
+    return view('admin.edit-perfil');
+})->name('edit-perfil');
+
 Route::get('/detalhes', function() {
     return view('home.detalhes');
 })->name('detalhes');
