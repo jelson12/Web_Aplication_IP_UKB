@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateArtigosTable extends Migration
+class CreateAutorsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,17 @@ class CreateArtigosTable extends Migration
      */
     public function up()
     {
-        Schema::create('artigos', function (Blueprint $table) {
+        Schema::create('autors', function (Blueprint $table) {
             $table->id();
-            $table->autor("string", 155);
-            $table->titulo("string", 255);
+            $table->string('name', 155);
+            $table->boolean('genero')
+                ->default(false)
+                ->comment('false: masculino | true: feminino');
             $table->foreignId('user_id')
                 ->constrained()
-                ->cascadeOnUpdate();
+                ->cascadeOnUpdate()
+                ->cascadeOnDelete();
+            $table->unique('user_id');
             $table->timestamps();
         });
     }
@@ -31,6 +35,6 @@ class CreateArtigosTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('artigos');
+        Schema::dropIfExists('autors');
     }
 }

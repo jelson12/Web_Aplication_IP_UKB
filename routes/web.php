@@ -13,21 +13,31 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+require __DIR__.'/auth.php';
+
+
 Route::get('/', function () {
     return view('home.index');
 })->name('home');
 
-Route::get('/dashboard', function () {
-    return view('admin.dashboard');
-})->name('dashboard');
+Route::group(['prefix' => 'admin','as'=>'admin.','middleware' => ['checkrole:admin', 'auth']], function ()
+{
+    Route::get('/dashboard', function () {
+        return view('admin.dashboard');
+    })->name('dashboard');
 
-Route::get('/perfil', function () {
-    return view('admin.perfil');
-})->name('perfil');
+    Route::get('/perfil', function () {
+        return view('admin.perfil');
+    })->name('perfil');
 
-Route::get('/edit-perfil', function() {
-    return view('admin.edit-perfil');
-})->name('edit-perfil');
+    Route::get('/edit-perfil', function() {
+        return view('admin.edit-perfil');
+    })->name('edit-perfil');
+});
 
 Route::get('/detalhes', function() {
     return view('home.detalhes');

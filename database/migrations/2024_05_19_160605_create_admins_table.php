@@ -15,6 +15,15 @@ class CreateAdminsTable extends Migration
     {
         Schema::create('admins', function (Blueprint $table) {
             $table->id();
+            $table->string('name', 255);
+            $table->boolean('genero')
+                ->default(false)
+                ->comment('false: masculino | true: feminino');
+            $table->foreignId('user_id')
+                ->constrained()
+                ->cascadeOnUpdate()
+                ->cascadeOnDelete();
+            $table->unique('user_id');
             $table->timestamps();
         });
     }
