@@ -3,7 +3,8 @@
     <div class="spinner-grow text-primary" role="status"></div>
 </div>
 <!-- Spinner End -->
-<!-- Modal start -->
+
+<!-- Modal Login Start -->
 <div class="modal fade" id="authModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="authModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered ">
         <div class="modal-content">
@@ -13,12 +14,13 @@
             </div>
             <div class="modal-body">
                 <section id="loginSection" class="active">
-                    <form>
+                    <form action="{{route('login')}}" method="POST">
+                        @csrf
                         <div class="mb-3">
-                            <input type="email" class="form-control" id="loginEmail" placeholder="Email" autofocus required autocomplete="off">
+                            <input type="email" class="form-control" id="loginEmail" placeholder="Email" autofocus name="email" required autocomplete="off">
                         </div>
                         <div class="mb-3">
-                            <input type="password" class="form-control" id="loginPassword" placeholder="Senha" required>
+                            <input type="password" class="form-control" id="loginPassword" placeholder="Senha" name="password" required>
                         </div>
                         <div class="d-grid">
                             <button type="submit" class=" btn btn-primary">Entrar</button>

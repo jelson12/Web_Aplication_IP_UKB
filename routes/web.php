@@ -51,6 +51,9 @@ Route::get('/404', function() {
     return view('error.404');
 })->name('404');
 
-Route::get('/user', function() {
-    return view('pages.user');
-})->name('user');
+Route::group(['prefix' => 'user', 'as'=>'user.', 'middleware' => ['checkrole:user', 'auth']], function ()
+{
+    Route::get('/dashboard', function() {
+        return view('pages.user');
+    })->name('dashboard');
+});

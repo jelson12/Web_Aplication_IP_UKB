@@ -32,10 +32,10 @@
                                                 alt="" height="30" width="30" class=""></a>
                                     </div>
                                     <div class="lh-1">
-                                        <h2 class="mb-0">Jitu Chauhan<a class="text-decoration-none"
+                                        <h2 class="mb-0">{{Auth::user()->name}}<a class="text-decoration-none"
                                                 data-bs-toggle="tooltip" data-placement="top" title=""
                                                 data-original-title="Beginner" href="#"></a></h2>
-                                        <p class="mb-0 d-block">@imjituchauhan</p>
+                                        <p class="mb-0 d-block">{{Auth::user()->email}}</p>
                                     </div>
                                 </div>
                                 <div><a class="btn btn-secondary d-none d-md-block" data-bs-toggle="modal"
