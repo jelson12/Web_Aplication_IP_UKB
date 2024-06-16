@@ -34,7 +34,8 @@ class AuthenticatedSessionController extends Controller
 
         $tipo_user = $request->user()->role;
 
-        return redirect()->intended("{$tipo_user}/dashboard");
+        return redirect()->intended("{$tipo_user}/dashboard")
+            ->with('login','Secção inicializada com sucesso!');
     }
 
     /**
@@ -51,6 +52,7 @@ class AuthenticatedSessionController extends Controller
 
         $request->session()->regenerateToken();
 
-        return redirect('/');
+        return redirect('/')
+            ->with('logout', "Seção terminada com sucesso!");
     }
 }

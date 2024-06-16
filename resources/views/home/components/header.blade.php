@@ -17,7 +17,7 @@
                     <form action="{{route('login')}}" method="POST">
                         @csrf
                         <div class="mb-3">
-                            <input type="email" class="form-control" id="loginEmail" placeholder="Email" autofocus name="email" required autocomplete="off">
+                            <input type="email" class="form-control" id="loginEmail" placeholder="Email" autofocus name="email" required autocomplete="off" value="{{old('email')}}">
                         </div>
                         <div class="mb-3">
                             <input type="password" class="form-control" id="loginPassword" placeholder="Senha" name="password" required>
@@ -32,19 +32,21 @@
                                 </div>
                 </section>
 
+                {{-- REGISTER --}}
                 <section id="registerSection">
-                    <form>
+                    <form action="{{route('register')}}" method="POST">
+                        @csrf
                         <div class="mb-3">
-                            <input type="text" class="form-control" id="registerName" placeholder="Nome" required autofocus>
+                            <input type="text" class="form-control" id="registerName" placeholder="Nome" name="name" required autofocus>
                         </div>
                         <div class="mb-3">
-                            <input type="email" class="form-control" id="registerEmail" placeholder="Email" required>
+                            <input type="email" class="form-control" id="registerEmail" placeholder="Email" name="email" required>
                         </div>
                         <div class="mb-3">
-                            <input type="password" class="form-control" id="registerPassword" placeholder="Senha" required>
+                            <input type="password" class="form-control" id="registerPassword" placeholder="Senha" name="password" required>
                         </div>
                         <div class="mb-3">
-                            <input type="password" class="form-control" id="registerPassword" placeholder="Confirmar a senha" required>
+                            <input type="password" class="form-control" id="registerPassword" placeholder="Confirmar a senha" name="password_confirmation" required>
                         </div>
                         <div class="d-grid">
                             <button type="submit" class=" btn btn-primary">Registrar</button>
