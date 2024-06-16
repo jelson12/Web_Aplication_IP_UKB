@@ -260,5 +260,21 @@
             </div>
         </div>
         <!-- Artigos End -->
+
+        <script>
+            "use strict";
+            var o = "rtl" === $("html").attr("data-textdirection");
+            @if (session('login'))
+            toastr.success("{{ session('login') }}",
+                "", {
+                    closeButton: !0,
+                    tapToDismiss: !0,
+                    progressBar: !0,
+                    positionClass: "toast-bottom-right",
+                    rtl: o
+                }
+            );
+            @endif
+        </script>
     </div>
     @endsection

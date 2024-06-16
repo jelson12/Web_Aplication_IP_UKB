@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
     {{-- Custom CSS --}}
-
+    <link rel="stylesheet" href="{{asset('assets/css/toastr.min.css')}}">
     @yield('custom_css_pre')
 
 </head>
@@ -52,6 +52,7 @@
 
     </div>
 
+    <script src="{{ asset('assets/js/jquery.js') }}"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
@@ -60,8 +61,43 @@
     <script src="{{ asset('assets/lib/owlcarousel/owl.carousel.min.js') }}"></script>
     <script src="{{ asset('assets/js/main.js') }}"></script>
     <script src="{{ asset('assets/js/feather.min.js') }}"></script>
+    <script src="{{ asset('assets/js/toastr.min.js') }}"></script>
+
+    <script>
+        "use strict";
+        var o = "rtl" === $("html").attr("data-textdirection");
+        @if (session('logout'))
+        toastr.success("{{ session('logout') }}",
+            '', {
+                closeButton: !0,
+                tapToDismiss: !0,
+                progressBar: !0,
+                positionClass: "toast-bottom-right",
+                rtl: o
+            }
+        );
+        @endif
+    </script>
+
+    <script>
+        "use strict";
+        var o = "rtl" === $("html").attr("data-textdirection");
+        @if (session('login'))
+        toastr.success("{{ session('login') }}",
+            "", {
+                closeButton: !0,
+                tapToDismiss: !0,
+                progressBar: !0,
+                positionClass: "toast-top-right",
+                rtl: o
+            }
+        );
+        @endif
+    </script>
 
     @yield('custom_js_pre')
+
+
 </body>
 
 </html>
