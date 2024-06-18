@@ -264,8 +264,8 @@
         <script>
             "use strict";
             var o = "rtl" === $("html").attr("data-textdirection");
-            @if (session('login'))
-            toastr.success("{{ session('login') }}",
+            @if (session('success'))
+            toastr.success("{{ session('success') }}",
                 "", {
                     closeButton: !0,
                     tapToDismiss: !0,

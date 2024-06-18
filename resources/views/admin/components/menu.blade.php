@@ -80,7 +80,15 @@
             </a>
             <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
                 <a href="#" class="dropdown-item">Perfil</a>
-                <a href="#" class="dropdown-item">Sair</a>
+                <form method="POST" action="{{ route('logout') }}">
+                    @csrf
+
+                    <x-dropdown-link :href="route('logout')"
+                                     onclick="event.preventDefault();
+                                                this.closest('form').submit();" class="dropdown-item">
+                        {{ __('Sair') }}
+                    </x-dropdown-link>
+                </form>
             </div>
         </div>
     </div>

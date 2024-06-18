@@ -49,6 +49,13 @@ class RegisteredUserController extends Controller
 
         Auth::login($user);
 
-        return redirect(RouteServiceProvider::HOME);
+        return redirect("{$this->userrole($user->id)}/dashboard")
+            ->with('success', "Usuário cadastrado com sucesso!");
+    }
+
+    public function userrole($userid)
+    {
+        return User::findOrFail($userid)->role;
+
     }
 }
