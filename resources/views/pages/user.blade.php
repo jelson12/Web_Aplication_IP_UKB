@@ -1,4 +1,4 @@
-@extends('home.layout.default1')
+@extends('home.layout.default')
 @section('title', 'User')
 @section('user', 'active')
 

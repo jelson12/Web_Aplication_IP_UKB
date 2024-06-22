@@ -79,21 +79,20 @@
         @endif
     </script>
 
-    <script>
-        "use strict";
-        var o = "rtl" === $("html").attr("data-textdirection");
-        @if (session('login'))
-        toastr.success("{{ session('login') }}",
-            "", {
-                closeButton: !0,
-                tapToDismiss: !0,
-                progressBar: !0,
-                positionClass: "toast-top-right",
-                rtl: o
-            }
-        );
-        @endif
-    </script>
+@if(session('login'))
+<script>
+    $(document).ready(function() {
+        var o = $("html").attr("data-textdirection") === "rtl";
+        toastr.success("{{ session('login') }}", "", {
+            closeButton: true,
+            tapToDismiss: true,
+            progressBar: true,
+            positionClass: "toast-bottom-right",
+            rtl: o
+        });
+    });
+</script>
+@endif
 
     @yield('custom_js_pre')
 

@@ -14,7 +14,7 @@
                     <li class="nav-item dropdown has-arrow new-user-menus">
                         <a href="#" class="dropdown-toggle nav-link d-flex align-items-center" data-bs-toggle="dropdown">Artigos
                         </a>
-                        <div class="dropdown-menu">
+                        <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
                             <a class="dropdown-item" href="{{route('user.dashboard')}}">Meus artigos</a>
                             <a class="dropdown-item" href="#">Outros artigos</a>
                         </div>
@@ -33,7 +33,7 @@
                             <!-- Authentication -->
                             <form method="POST" action="{{ route('logout') }}">
                                 @csrf
-
+                                <a class="dropdown-item" href="{{route('user.dashboard')}}">Perfil</a>
                                 <x-dropdown-link :href="route('logout')"
                                                  onclick="event.preventDefault();
                                                 this.closest('form').submit();" class="dropdown-item">

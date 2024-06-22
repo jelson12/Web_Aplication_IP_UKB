@@ -9,8 +9,8 @@
             <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
                 <i class="fa fa-chart-line fa-3x text-primary"></i>
                 <div class="ms-3">
-                    <p class="mb-2">Today Sale</p>
-                    <h6 class="mb-0">$1234</h6>
+                    <p class="mb-2">Artigos de hoje</p>
+                    <h6 class="mb-0">12</h6>
                 </div>
             </div>
         </div>
@@ -18,17 +18,8 @@
             <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
                 <i class="fa fa-chart-bar fa-3x text-primary"></i>
                 <div class="ms-3">
-                    <p class="mb-2">Total Sale</p>
-                    <h6 class="mb-0">$1234</h6>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 col-xl-3">
-            <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                <i class="fa fa-chart-area fa-3x text-primary"></i>
-                <div class="ms-3">
-                    <p class="mb-2">Today Revenue</p>
-                    <h6 class="mb-0">$1234</h6>
+                    <p class="mb-2">Total de Artigos</p>
+                    <h6 class="mb-0">1234</h6>
                 </div>
             </div>
         </div>
@@ -36,8 +27,8 @@
             <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
                 <i class="fa fa-chart-pie fa-3x text-primary"></i>
                 <div class="ms-3">
-                    <p class="mb-2">Total Revenue</p>
-                    <h6 class="mb-0">$1234</h6>
+                    <p class="mb-2">Total usuários</p>
+                    <h6 class="mb-0">234</h6>
                 </div>
             </div>
         </div>
@@ -60,7 +51,7 @@
         <div class="col-sm-12 col-xl-6">
             <div class="bg-light text-center rounded p-4">
                 <div class="d-flex align-items-center justify-content-between mb-4">
-                    <h6 class="mb-0">Salse & Revenue</h6>
+                    <h6 class="mb-0">Artigos Publicados</h6>
                 </div>
                 <canvas id="salse-revenue"></canvas>
             </div>
@@ -149,9 +140,9 @@
                     <div class="w-100 ms-3">
                         <div class="d-flex w-100 justify-content-between">
                             <h6 class="mb-0">Jhon Doe</h6>
-                            <small>15 minutes ago</small>
+                            <small>15 minutos atrás</small>
                         </div>
-                        <span>Short message goes here...</span>
+                        <span>Mensagem vai aqui!</span>
                     </div>
                 </div>
                 <div class="d-flex align-items-center border-bottom py-3">
@@ -159,9 +150,9 @@
                     <div class="w-100 ms-3">
                         <div class="d-flex w-100 justify-content-between">
                             <h6 class="mb-0">Jhon Doe</h6>
-                            <small>15 minutes ago</small>
+                            <small>15 minutos atrás</small>
                         </div>
-                        <span>Short message goes here...</span>
+                        <span>Mensagem vai aqui!</span>
                     </div>
                 </div>
                 <div class="d-flex align-items-center border-bottom py-3">
@@ -169,9 +160,9 @@
                     <div class="w-100 ms-3">
                         <div class="d-flex w-100 justify-content-between">
                             <h6 class="mb-0">Jhon Doe</h6>
-                            <small>15 minutes ago</small>
+                            <small>15 minutos atrás</small>
                         </div>
-                        <span>Short message goes here...</span>
+                        <span>Mensagem vai aqui!</span>
                     </div>
                 </div>
                 <div class="d-flex align-items-center pt-3">
@@ -179,9 +170,9 @@
                     <div class="w-100 ms-3">
                         <div class="d-flex w-100 justify-content-between">
                             <h6 class="mb-0">Jhon Doe</h6>
-                            <small>15 minutes ago</small>
+                            <small>15 minutos atrás</small>
                         </div>
-                        <span>Short message goes here...</span>
+                        <span>Mensagem vai aqui!</span>
                     </div>
                 </div>
             </div>
@@ -190,7 +181,7 @@
             <div class="h-100 bg-light rounded p-4">
                 <div class="d-flex align-items-center justify-content-between mb-4">
                     <h6 class="mb-0">To Do List</h6>
-                    <a href="">Show All</a>
+                    <a href="">Ver todas</a>
                 </div>
                 <div class="d-flex mb-2">
                     <input class="form-control bg-transparent" type="text" placeholder="Enter task">
@@ -200,7 +191,7 @@
                     <input class="form-check-input m-0" type="checkbox">
                     <div class="w-100 ms-3">
                         <div class="d-flex w-100 align-items-center justify-content-between">
-                            <span>Short task goes here...</span>
+                            <span>Trafera vai aqui!</span>
                             <button class="btn btn-sm"><i class="fa fa-times"></i></button>
                         </div>
                     </div>
@@ -209,7 +200,7 @@
                     <input class="form-check-input m-0" type="checkbox">
                     <div class="w-100 ms-3">
                         <div class="d-flex w-100 align-items-center justify-content-between">
-                            <span>Short task goes here...</span>
+                            <span>Trafera vai aqui!</span>
                             <button class="btn btn-sm"><i class="fa fa-times"></i></button>
                         </div>
                     </div>
@@ -218,7 +209,7 @@
                     <input class="form-check-input m-0" type="checkbox" checked>
                     <div class="w-100 ms-3">
                         <div class="d-flex w-100 align-items-center justify-content-between">
-                            <span><del>Short task goes here...</del></span>
+                            <span><del>Trafera vai aqui!</del></span>
                             <button class="btn btn-sm text-primary"><i class="fa fa-times"></i></button>
                         </div>
                     </div>
@@ -227,7 +218,7 @@
                     <input class="form-check-input m-0" type="checkbox">
                     <div class="w-100 ms-3">
                         <div class="d-flex w-100 align-items-center justify-content-between">
-                            <span>Short task goes here...</span>
+                            <span>Trafera vai aqui!</span>
                             <button class="btn btn-sm"><i class="fa fa-times"></i></button>
                         </div>
                     </div>
@@ -236,7 +227,7 @@
                     <input class="form-check-input m-0" type="checkbox">
                     <div class="w-100 ms-3">
                         <div class="d-flex w-100 align-items-center justify-content-between">
-                            <span>Short task goes here...</span>
+                            <span>Trafera vai aqui!</span>
                             <button class="btn btn-sm"><i class="fa fa-times"></i></button>
                         </div>
                     </div>

@@ -25,13 +25,13 @@
                             <div class="latest-news-item">
                                 <div class="bg-light rounded">
                                     <div class="rounded-top overflow-hidden">
-                                        <img src="{{asset('assets/img/news-7.jpg')}}" class="img-zoomin img-fluid rounded-top w-100" alt="">
+                                        <img src="{{asset('assets/img/w2.jpg')}}" class="img-zoomin img-fluid rounded-top w-101" alt="">
                                     </div>
                                     <div class="d-flex flex-column p-4">
-                                        <a href="#" class="h4">Titulo...</a>
+                                        <a href="#" class="h4">I.A e psicologia</a>
                                         <div class="d-flex justify-content-between">
-                                            <a href="#" class="small text-body link-hover">Autor</a>
-                                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i>data</small>
+                                            <a href="#" class="small text-body link-hover">Autor: Dean A. Pormeleau</a>
+                                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i>Data:13/03/1990</small>
                                         </div>
                                     </div>
                                 </div>
@@ -39,13 +39,13 @@
                             <div class="latest-news-item">
                                 <div class="bg-light rounded">
                                     <div class="rounded-top overflow-hidden">
-                                        <img src="{{asset('assets/img/news-6.jpg')}}" class="img-zoomin img-fluid rounded-top w-100" alt="">
+                                        <img src="{{asset('assets/img/w1.jpg')}}" class="img-zoomin img-fluid rounded-top w-101" alt="">
                                     </div>
                                     <div class="d-flex flex-column p-4">
-                                        <a href="#" class="h4">Titulo...</a>
+                                        <a href="#" class="h4">Does Machine Learning work</a>
                                         <div class="d-flex justify-content-between">
-                                            <a href="#" class="small text-body link-hover">Autor</a>
-                                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i>data</small>
+                                            <a href="#" class="small text-body link-hover">Autor:Associação Américana</a>
+                                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i>Data: 24/07/2007</small>
                                         </div>
                                     </div>
                                 </div>
@@ -53,13 +53,13 @@
                             <div class="latest-news-item">
                                 <div class="bg-light rounded">
                                     <div class="rounded-top overflow-hidden">
-                                        <img src="{{asset('assets/img/news-3.jpg')}}" class="img-zoomin img-fluid rounded-top w-100" alt="">
+                                        <img src="{{asset('assets/img/w4.jpg')}}" class="img-zoomin img-fluid rounded-top" alt="">
                                     </div>
                                     <div class="d-flex flex-column p-4">
-                                        <a href="#" class="h4">Titulo...</a>
+                                        <a href="#" class="h4">Inteligência Articial</a>
                                         <div class="d-flex justify-content-between">
-                                            <a href="#" class="small text-body link-hover">Autor</a>
-                                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i>data</small>
+                                            <a href="#" class="small text-body link-hover">Autor: Alan Turing</a>
+                                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i>Data: 17/07/1998</small>
                                         </div>
                                     </div>
                                 </div>
@@ -67,27 +67,13 @@
                             <div class="latest-news-item">
                                 <div class="bg-light rounded">
                                     <div class="rounded-top overflow-hidden">
-                                        <img src="{{asset('assets/img/news-4.jpg')}}" class="img-zoomin img-fluid rounded-top w-100" alt="">
+                                        <img src="{{asset('assets/img/w5.jpg')}}" class="img-zoomin img-fluid rounded-top w-101" alt="">
                                     </div>
                                     <div class="d-flex flex-column p-4">
-                                        <a href="#" class="h4">Titulo...</a>
+                                        <a href="#" class="h4 ">Medicina</a>
                                         <div class="d-flex justify-content-between">
-                                            <a href="#" class="small text-body link-hover">Autor</a>
-                                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i>data</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="latest-news-item">
-                                <div class="bg-light rounded">
-                                    <div class="rounded-top overflow-hidden">
-                                        <img src="{{asset('assets/img/news-5.jpg')}}" class="img-zoomin img-fluid rounded-top w-100" alt="">
-                                    </div>
-                                    <div class="d-flex flex-column p-4">
-                                        <a href="#" class="h4 ">Titulo...</a>
-                                        <div class="d-flex justify-content-between">
-                                            <a href="#" class="small text-body link-hover">Autor</a>
-                                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i>data</small>
+                                            <a href="#" class="small text-body link-hover">Autor: Ribeiro Pedro</a><br>
+                                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i>Data: 23/09/2009</small>
                                         </div>
                                     </div>
                                 </div>
@@ -108,12 +94,11 @@
                             </div>
                             <div class="col-9">
                                 <div class="d-flex justify-content-between">
-                                    <h5>User Name</h5>
-                                    <a href="#" class="link-hover text-body fs-6"><i class="fas fa-long-arrow-alt-right me-1"></i> Reply</a>
+                                    <h5>Jelson Rocha</h5>
+                                    <a href="#" class="link-hover text-body fs-6"><i class="fas fa-long-arrow-alt-right me-1"></i> Resposta</a>
                                 </div>
                                 <small class="text-body d-block mb-3"><i class="fas fa-calendar-alt me-1"></i>Data</small>
-                                <p class="mb-0">Titulo the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum has been the industry's standard dummy type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-                                </p>
+                                <p class="mb-0">O uso de redes neurais convolucionais neste estudo foi particularmente inovador. A capacidade de capturar características espaciais nos dados melhorou significativamente a precisão do modelo.</p>
                             </div>
                         </div>
                     </div>
@@ -124,12 +109,11 @@
                             </div>
                             <div class="col-9">
                                 <div class="d-flex justify-content-between">
-                                    <h5>User Name</h5>
-                                    <a href="#" class="link-hover text-body fs-6"><i class="fas fa-long-arrow-alt-right me-1"></i> Reply</a>
+                                    <h5>Frederico Dúlio</h5>
+                                    <a href="#" class="link-hover text-body fs-6"><i class="fas fa-long-arrow-alt-right me-1"></i> Resposta</a>
                                 </div>
                                 <small class="text-body d-block mb-3"><i class="fas fa-calendar-alt me-1"></i>Data</small>
-                                <p class="mb-0">Titulo the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum has been the industry's standard dummy type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-                                </p>
+                                <p class="mb-0">Os resultados mostram uma precisão de 95%, o que é impressionante. No entanto, seria interessante ver como o modelo se comporta em um conjunto de dados mais diversificado.</p>
                             </div>
                         </div>
                     </div>
@@ -282,7 +266,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
-                                    <a href="#" class="link-hover btn border border-primary rounded-pill text-dark w-100 py-3 mb-4">View More</a>
+                                    <a href="#" class="link-hover btn border border-primary rounded-pill text-dark w-100 py-3 mb-4">Ver Mais</a>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="border-bottom my-3 pb-3">
