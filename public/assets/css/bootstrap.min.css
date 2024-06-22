@@ -4396,7 +4396,7 @@ fieldset:disabled .btn {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #1664cc
+    color: #000
 }
 
 .nav-link.disabled {
@@ -7453,6 +7453,10 @@ img, svg {
 
 .w-100 {
     width: 100% !important
+}
+
+.w-101 {
+    width: 100px !important
 }
 
 .w-auto {

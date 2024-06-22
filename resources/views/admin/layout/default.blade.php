@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="{{ asset('assets/lib/owlcarousel/assets/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap1.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style1.css') }}">
+    <link rel="stylesheet" href="{{asset('assets/css/toastr.min.css')}}">
+
 
     {{-- Custom CSS --}}
 
@@ -67,7 +69,22 @@
     <script src="{{asset('assets/lib/tempusdominus/js/moment-timezone.min.js')}}"></script>
     <script src="{{asset('assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js')}}"></script>
     <script src="{{ asset('assets/js/main1.js') }}"></script>
+    <script src="{{ asset('assets/js/toastr.min.js') }}"></script>
 
+    @if(session('login'))
+        <script>
+            $(document).ready(function() {
+                var o = $("html").attr("data-textdirection") === "rtl";
+                toastr.success("{{ session('login') }}", "", {
+                    closeButton: true,
+                    tapToDismiss: true,
+                    progressBar: true,
+                    positionClass: "toast-bottom-right",
+                    rtl: o
+                });
+            });
+        </script>
+    @endif
     @yield('custom_js_pre')
 </body>
 

@@ -1,11 +1,13 @@
 <!-- Spinner Start -->
-<div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+<div id="spinner"
+    class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
     <div class="spinner-grow text-primary" role="status"></div>
 </div>
 <!-- Spinner End -->
 
 <!-- Modal Login Start -->
-<div class="modal fade" id="authModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="authModalLabel" aria-hidden="true">
+<div class="modal fade" id="authModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="authModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered ">
         <div class="modal-content">
             <div class="modal-header">
@@ -14,39 +16,46 @@
             </div>
             <div class="modal-body">
                 <section id="loginSection" class="active">
-                    <form action="{{route('login')}}" method="POST">
+                    <form action="{{ route('login') }}" method="POST">
                         @csrf
                         <div class="mb-3">
-                            <input type="email" class="form-control" id="loginEmail" placeholder="Email" autofocus name="email" required autocomplete="off" value="{{old('email')}}">
+                            <input type="email" class="form-control" id="loginEmail" placeholder="Email" autofocus
+                                name="email" required autocomplete="off" value="{{ old('email') }}">
                         </div>
                         <div class="mb-3">
-                            <input type="password" class="form-control" id="loginPassword" placeholder="Senha" name="password" required>
+                            <input type="password" class="form-control" id="loginPassword" placeholder="Senha"
+                                name="password" required>
                         </div>
                         <div class="d-grid">
                             <button type="submit" class=" btn btn-primary">Entrar</button>
                         </div>
                     </form>
                     <div class="d-md-flex justify-content-between mt-4">
-                                    <div class="mb-2 mb-md-0"><a class="fs-5" href="#" id="showRegister">Criar conta? </a></div>
-                                    <div><a class="text-inherit fs-5" href="#" id="showForgot">Esqueceu a senha?</a></div>
-                                </div>
+                        <div class="mb-2 mb-md-0"><a class="fs-5" href="#" id="showRegister">Criar conta? </a>
+                        </div>
+                        <div><a class="text-inherit fs-5" href="#" id="showForgot">Esqueceu a senha?</a></div>
+                    </div>
                 </section>
 
                 {{-- REGISTER --}}
                 <section id="registerSection">
-                    <form action="{{route('register')}}" method="POST">
+                    <form action="{{ route('register') }}" method="POST">
                         @csrf
                         <div class="mb-3">
-                            <input type="text" class="form-control" id="registerName" placeholder="Nome" name="name" required autofocus>
+                            <input type="text" class="form-control" id="registerName" placeholder="Nome"
+                                name="name" required autofocus>
                         </div>
                         <div class="mb-3">
-                            <input type="email" class="form-control" id="registerEmail" placeholder="Email" name="email" required>
+                            <input type="email" class="form-control" id="registerEmail" placeholder="Email"
+                                name="email" required>
                         </div>
                         <div class="mb-3">
-                            <input type="password" class="form-control" id="registerPassword" placeholder="Senha" name="password" required>
+                            <input type="password" class="form-control" id="registerPassword" placeholder="Senha"
+                                name="password" required>
                         </div>
                         <div class="mb-3">
-                            <input type="password" class="form-control" id="registerPassword" placeholder="Confirmar a senha" name="password_confirmation" required>
+                            <input type="password" class="form-control" id="registerPassword"
+                                placeholder="Confirmar a senha" name="password_confirmation" required>
                         </div>
                         <div class="d-grid">
                             <button type="submit" class=" btn btn-primary">Registrar</button>
@@ -85,14 +94,26 @@
                     </div>
                     <div class="overflow-hidden" style="width: 735px;">
                         <div id="note" class="ps-2">
-                            <img src="{{asset('assets/img/features-fashion.jpg')}}" class="img-fluid rounded-circle border border-3 border-primary me-2" style="width: 30px; height: 30px;" alt="">
-                            <a href="#"><p class="text-dark mb-0 link-hover">Convênio entre a UKB e o banco BCI gera bolsa de estudos aos estudantes.</p></a>
+                            <img src="{{ asset('assets/img/features-fashion.jpg') }}"
+                                class="img-fluid rounded-circle border border-3 border-primary me-2"
+                                style="width: 30px; height: 30px;" alt="">
+                            <a href="#">
+                                <p class="text-dark mb-0 link-hover">Convênio entre a UKB e o banco BCI gera bolsa de
+                                    estudos aos estudantes.</p>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-  @include('home.components.partials.menu')
+    @if (Route::has('login'))
+        @auth
+            @include('home.components.partials.menu1')
+        @else
+            @include('home.components.partials.menu')
+        @endauth
+    @endif
+
 </div>
 <!-- Navbar End -->

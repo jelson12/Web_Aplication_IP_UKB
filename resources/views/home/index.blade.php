@@ -19,10 +19,9 @@
                     </div>
                 </div>
                 <div class="border-bottom py-3">
-                    <a href="#" class="display-4 text-dark mb-0 link-hover">Titulo the printing</a>
+                    <a href="#" class="display-4 text-dark mb-0 link-hover">Artigos cientifícos do IP</a>
                 </div>
-                <p class="mt-3 mb-4">Publicações Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley standard dummy text ever since the 1500s, when an unknown printer took a galley...
-                </p>
+                <p class="mt-3 mb-4">Artigos cientifícos do IP
                 <div class="bg-light p-4 rounded">
                     <div class="news-2">
                         <h3 class="mb-4">Notícia Principal</h3>
@@ -30,12 +29,12 @@
                     <div class="row g-4 align-items-center">
                         <div class="col-md-6">
                             <div class="rounded overflow-hidden">
-                                <img src="{{asset('assets/img/news-2.jpg')}}" class="img-fluid rounded img-zoomin w-100" alt="">
+                                <img src="{{asset('assets/img/ukb3.jpg')}}" class="img-fluid rounded img-zoomin w-100" alt="">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="d-flex flex-column">
-                                <a href="#" class="h3">O teste ao primeiro telescópio.</a>
+                                <a href="#" class="h3">Instituto Politécnico da UKB lança 𝐌𝐞𝐬𝐭𝐫𝐚𝐝𝐨 𝐞𝐦 𝐄𝐧𝐠𝐞𝐧𝐡𝐚𝐫𝐢𝐚 𝐈𝐧𝐟𝐨𝐫𝐦á𝐭𝐢𝐜𝐚.</a>
                                 <p class="mb-0 fs-5"><i class="fa fa-clock"> Lida a 06 minutos</i> </p>
                                 <p class="mb-0 fs-5"><i class="fa fa-eye"> 3.5 mil visualizações</i></p>
                             </div>
@@ -48,12 +47,12 @@
                     <div class="row g-4">
                         <div class="col-12">
                             <div class="rounded overflow-hidden">
-                                <img src="{{asset('assets/img/news-3.jpg')}}" class="img-fluid rounded img-zoomin w-100" alt="">
+                                <img src="{{asset('assets/img/ukb1.jpg')}}" class="img-fluid rounded img-zoomin w-100" alt="">
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="d-flex flex-column">
-                                <a href="#" class="h4 mb-2">As melhores notícias do mercado.</a>
+                                <a href="#" class="h4 mb-2">Universidade Katyava Bwila e o Banco de Comércio e Indústria assinam memorando de entendimento.</a>
                                 <p class="fs-5 mb-0"><i class="fa fa-clock"> Lida a 06 minutos</i> </p>
                                 <p class="fs-5 mb-0"><i class="fa fa-eye"> 3.5 mil visualizações</i></p>
                             </div>
@@ -62,12 +61,12 @@
                             <div class="row g-4 align-items-center">
                                 <div class="col-5">
                                     <div class="overflow-hidden rounded">
-                                        <img src="{{asset('assets/img/news-3.jpg')}}" class="img-zoomin img-fluid rounded w-100" alt="">
+                                        <img src="{{asset('assets/img/ukb4.jpg')}}" class="img-zoomin img-fluid rounded w-100" alt="">
                                     </div>
                                 </div>
                                 <div class="col-7">
                                     <div class="features-content d-flex flex-column">
-                                        <a href="#" class="h6">As melhores notícias do mercado.</a>
+                                        <a href="#" class="h6">UKB amplia laços de colaboração em matérias de investigação com a Universidade de Fort Hare (UFH).</a>
                                         <small><i class="fa fa-clock"> Lida a 06 minutos</i> </small>
                                         <small><i class="fa fa-eye"> 3.5 mil visualizações</i></small>
                                     </div>
@@ -78,12 +77,12 @@
                             <div class="row g-4 align-items-center">
                                 <div class="col-5">
                                     <div class="overflow-hidden rounded">
-                                        <img src="{{asset('assets/img/news-4.jpg')}}" class="img-zoomin img-fluid rounded w-100" alt="">
+                                        <img src="{{asset('assets/img/ukb3.jpg')}}" class="img-zoomin img-fluid rounded w-100" alt="">
                                     </div>
                                 </div>
                                 <div class="col-7">
                                     <div class="features-content d-flex flex-column">
-                                        <a href="#" class="h6">As melhores notícias do mercado.</a>
+                                        <a href="#" class="h6">Instituto Politécnico da UKB lança 𝐌𝐞𝐬𝐭𝐫𝐚𝐝𝐨 𝐞𝐦 𝐄𝐧𝐠𝐞𝐧𝐡𝐚𝐫𝐢𝐚 𝐈𝐧𝐟𝐨𝐫𝐦á𝐭𝐢𝐜𝐚.</a>
                                         <small><i class="fa fa-clock"> Lida a 06 minutos</i> </small>
                                         <small><i class="fa fa-eye"> 3.5 mil visualizações</i></small>
                                     </div>
@@ -94,12 +93,12 @@
                             <div class="row g-4 align-items-center">
                                 <div class="col-5">
                                     <div class="overflow-hidden rounded">
-                                        <img src="{{asset('assets/img/news-5.jpg')}}" class="img-zoomin img-fluid rounded w-100" alt="">
+                                        <img src="{{asset('assets/img/ukb1.jpg')}}" class="img-zoomin img-fluid rounded w-100" alt="">
                                     </div>
                                 </div>
                                 <div class="col-7">
                                     <div class="features-content d-flex flex-column">
-                                        <a href="#" class="h6">As melhores notícias do mercado.</a>
+                                        <a href="#" class="h6">UKB e o Instituto de Desenvolvimento Local em Benguela, assinam Protocolo de Cooperação.</a>
                                         <small><i class="fa fa-clock"> Lida a 06 minutos</i> </small>
                                         <small><i class="fa fa-eye"> 3.5 mil visualizações</i></small>
                                     </div>
@@ -110,12 +109,12 @@
                             <div class="row g-4 align-items-center">
                                 <div class="col-5">
                                     <div class="overflow-hidden rounded">
-                                        <img src="{{asset('assets/img/news-6.jpg')}}" class="img-zoomin img-fluid rounded w-100" alt="">
+                                        <img src="{{asset('assets/img/ukb5.jpg')}}" class="img-zoomin img-fluid rounded w-100" alt="">
                                     </div>
                                 </div>
                                 <div class="col-7">
                                     <div class="features-content d-flex flex-column">
-                                        <a href="#" class="h6">As melhores notícias do mercado.</a>
+                                        <a href="#" class="h6">Estudantes da Universidade Mandume Ya Ndemufayo visitam a UKB.</a>
                                         <small><i class="fa fa-clock"> Lida a 06 minutos</i> </small>
                                         <small><i class="fa fa-eye"> 3.5 mil visualizações</i></small>
                                     </div>
@@ -126,28 +125,12 @@
                             <div class="row g-4 align-items-center">
                                 <div class="col-5">
                                     <div class="overflow-hidden rounded">
-                                        <img src="{{asset('assets/img/news-7.jpg')}}" class="img-zoomin img-fluid rounded w-100" alt="">
+                                        <img src="{{asset('assets/img/ukb6.jpg')}}" class="img-zoomin img-fluid rounded w-100" alt="">
                                     </div>
                                 </div>
                                 <div class="col-7">
                                     <div class="features-content d-flex flex-column">
-                                        <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                        <small><i class="fa fa-clock"> Lida a 06 minutos</i> </small>
-                                        <small><i class="fa fa-eye"> 3.5 mil visualizações</i></small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row g-4 align-items-center">
-                                <div class="col-5">
-                                    <div class="overflow-hidden rounded">
-                                        <img src="{{asset('assets/img/news-7.jpg')}}" class="img-zoomin img-fluid rounded w-100" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-7">
-                                    <div class="features-content d-flex flex-column">
-                                        <a href="#" class="h6">As melhores notícias do mercado.</a>
+                                        <a href="#" class="h6">UKB participa na sessão de apresentação do Serviço da Infrasat.</a>
                                         <small><i class="fa fa-clock"> Lida a 06 minutos</i> </small>
                                         <small><i class="fa fa-eye"> 3.5 mil visualizações</i></small>
                                     </div>
@@ -170,8 +153,6 @@
             <div class="col-lg-7">
                 <h1 class="mb-4 text-primary">IP-News</h1>
                 <h1 class="mb-4">Receba as novas notícias semanais</h1>
-                <p class="text-dark mb-4 pb-2">Publicações Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                </p>
                 <div class="position-relative mx-auto">
                     <input class="form-control w-100 py-3 rounded-pill" type="email" placeholder="Email">
                     <button type="submit" class="btn btn-primary py-3 px-5 position-absolute rounded-pill h-100" style="top: 0; right: 0;">Subscreva-se</button>
@@ -179,7 +160,7 @@
             </div>
             <div class="col-lg-5">
                 <div class="rounded">
-                    <img src="{{asset('assets/img/banner-img.jpg')}}" class="img-fluid rounded w-100 rounded" alt="">
+                    <img src="{{asset('assets/img/banner-img.jpg')}}" class="img-fluid rounded w-100 rounded"  alt="">
                 </div>
             </div>
         </div>
@@ -196,13 +177,13 @@
             <div class="latest-news-item">
                 <div class="bg-light rounded">
                     <div class="rounded-top overflow-hidden">
-                        <img src="{{asset('assets/img/news-7.jpg')}}" class="img-zoomin img-fluid rounded-top w-100" alt="">
+                        <img src="{{asset('assets/img/w2.jpg')}}" class="img-zoomin img-fluid rounded-top w-101" alt="">
                     </div>
                     <div class="d-flex flex-column p-4">
-                        <a href="#" class="h4">Titulo...</a>
+                        <a href="#" class="h4">I.A e psicologia</a>
                         <div class="d-flex justify-content-between">
-                            <a href="#" class="small text-body link-hover">Autor</a>
-                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i>data</small>
+                            <a href="#" class="small text-body link-hover">Autor: Dean A. Pormeleau</a>
+                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i>Data:13/03/1990</small>
                         </div>
                     </div>
                 </div>
@@ -210,13 +191,13 @@
             <div class="latest-news-item">
                 <div class="bg-light rounded">
                     <div class="rounded-top overflow-hidden">
-                        <img src="{{asset('assets/img/news-6.jpg')}}" class="img-zoomin img-fluid rounded-top w-100" alt="">
+                        <img src="{{asset('assets/img/w1.jpg')}}" class="img-zoomin img-fluid rounded-top w-101" alt="">
                     </div>
                     <div class="d-flex flex-column p-4">
-                        <a href="#" class="h4">Titulo...</a>
+                        <a href="#" class="h4">Does Machine Learning work</a>
                         <div class="d-flex justify-content-between">
-                            <a href="#" class="small text-body link-hover">Autor</a>
-                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i>data</small>
+                            <a href="#" class="small text-body link-hover">Autor:Associação Américana</a>
+                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i>Data: 24/07/2007</small>
                         </div>
                     </div>
                 </div>
@@ -224,13 +205,13 @@
             <div class="latest-news-item">
                 <div class="bg-light rounded">
                     <div class="rounded-top overflow-hidden">
-                        <img src="{{asset('assets/img/news-3.jpg')}}" class="img-zoomin img-fluid rounded-top w-100" alt="">
+                        <img src="{{asset('assets/img/w4.jpg')}}" class="img-zoomin img-fluid rounded-top" alt="">
                     </div>
                     <div class="d-flex flex-column p-4">
-                        <a href="#" class="h4">Titulo...</a>
+                        <a href="#" class="h4">Inteligência Articial</a>
                         <div class="d-flex justify-content-between">
-                            <a href="#" class="small text-body link-hover">Autor</a>
-                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i>data</small>
+                            <a href="#" class="small text-body link-hover">Autor: Alan Turing</a>
+                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i>Data: 17/07/1998</small>
                         </div>
                     </div>
                 </div>
@@ -238,13 +219,13 @@
             <div class="latest-news-item">
                 <div class="bg-light rounded">
                     <div class="rounded-top overflow-hidden">
-                        <img src="{{asset('assets/img/news-5.jpg')}}" class="img-zoomin img-fluid rounded-top w-100" alt="">
+                        <img src="{{asset('assets/img/w5.jpg')}}" class="img-zoomin img-fluid rounded-top w-101" alt="">
                     </div>
                     <div class="d-flex flex-column p-4">
-                        <a href="#" class="h4 ">Titulo...</a>
+                        <a href="#" class="h4 ">Medicina</a>
                         <div class="d-flex justify-content-between">
-                            <a href="#" class="small text-body link-hover">autor</a>
-                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i>data</small>
+                            <a href="#" class="small text-body link-hover">Autor: Ribeiro Pedro</a>
+                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i>Data: 23/09/2009</small>
                         </div>
                     </div>
                 </div>
@@ -316,22 +297,13 @@
                                             <div class="row g-4 align-items-center">
                                                 <div class="col-5">
                                                     <div class="overflow-hidden rounded">
-                                                        <img src="{{asset('assets/img/news-3.jpg')}}" class="img-zoomin img-fluid rounded w-100" alt="">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="row g-4 align-items-center">
-                                                <div class="col-5">
-                                                    <div class="overflow-hidden rounded">
-                                                        <img src="{{asset('assets/img/news-5.jpg')}}" class="img-zoomin img-fluid rounded w-100" alt="">
+                                                        <img src="{{asset('assets/img/isp.jpg')}}" class="img-zoomin img-fluid rounded w-100" alt="">
                                                     </div>
                                                 </div>
                                                 <div class="col-7">
                                                     <div class="features-content d-flex flex-column">
                                                         <p class="text-uppercase mb-2">Eventos</p>
-                                                        <a href="#" class="h6">As melhores notícias do mercado.</a>
+                                                        <a href="#" class="h6">Concurso de Programação 2024.</a>
                                                         <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
@@ -341,14 +313,14 @@
                                             <div class="row g-4 align-items-center">
                                                 <div class="col-5">
                                                     <div class="overflow-hidden rounded">
-                                                        <img src="{{asset('assets/img/news-6.jpg')}}" class="img-zoomin img-fluid rounded w-100" alt="">
+                                                        <img src="{{asset('assets/img/ukb1.jpg')}}" class="img-zoomin img-fluid rounded w-100" alt="">
                                                     </div>
                                                 </div>
                                                 <div class="col-7">
                                                     <div class="features-content d-flex flex-column">
                                                         <p class="text-uppercase mb-2">Eventos</p>
-                                                        <a href="#" class="h6">As melhores notícias do mercado.</a>
-                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
+                                                        <a href="#" class="h6">Universidade Katyava Bwila e o BCI assinam memorando.</a>
+                                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 13 de Maio, 2024</small>
                                                     </div>
                                                 </div>
                                             </div>
@@ -357,13 +329,13 @@
                                             <div class="row g-4 align-items-center">
                                                 <div class="col-5">
                                                     <div class="overflow-hidden rounded">
-                                                        <img src="{{asset('assets/img/news-7.jpg')}}" class="img-zoomin img-fluid rounded w-100" alt="">
+                                                        <img src="{{asset('assets/img/ukb2.jpg')}}" class="img-zoomin img-fluid rounded w-100" alt="">
                                                     </div>
                                                 </div>
                                                 <div class="col-7">
                                                     <div class="features-content d-flex flex-column">
                                                         <p class="text-uppercase mb-2">Eventos</p>
-                                                        <a href="#" class="h6">As melhores notícias do mercado.</a>
+                                                        <a href="#" class="h6">UKB auscultada pela Delegação do Ministério do Ensino Superior.</a>
                                                         <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> 20 de Maio, 2024</small>
                                                     </div>
                                                 </div>
@@ -802,74 +774,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="border-bottom mb-4">
-                        <h2 class="my-4">Revistas</h2>
-                    </div>
-                    <!-- Artigos Start -->
-                    <div class="container-fluid latest-news py-5">
-                        <div class="container py-5">
-                            <h2 class="mb-4">Artigos</h2>
-                            <div class="latest-news-carousel owl-carousel">
-                                <div class="latest-news-item">
-                                    <div class="bg-light rounded">
-                                        <div class="rounded-top overflow-hidden">
-                                            <img src="{{asset('assets/img/news-7.jpg')}}" class="img-zoomin img-fluid rounded-top w-100" alt="">
-                                        </div>
-                                        <div class="d-flex flex-column p-4">
-                                            <a href="#" class="h4">Titulo...</a>
-                                            <div class="d-flex justify-content-between">
-                                                <a href="#" class="small text-body link-hover">Autor</a>
-                                                <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i>data</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="latest-news-item">
-                                    <div class="bg-light rounded">
-                                        <div class="rounded-top overflow-hidden">
-                                            <img src="{{asset('assets/img/news-6.jpg')}}" class="img-zoomin img-fluid rounded-top w-100" alt="">
-                                        </div>
-                                        <div class="d-flex flex-column p-4">
-                                            <a href="#" class="h4">Titulo...</a>
-                                            <div class="d-flex justify-content-between">
-                                                <a href="#" class="small text-body link-hover">Autor</a>
-                                                <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i>data</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="latest-news-item">
-                                    <div class="bg-light rounded">
-                                        <div class="rounded-top overflow-hidden">
-                                            <img src="{{asset('assets/img/news-3.jpg')}}" class="img-zoomin img-fluid rounded-top w-100" alt="">
-                                        </div>
-                                        <div class="d-flex flex-column p-4">
-                                            <a href="#" class="h4">Titulo...</a>
-                                            <div class="d-flex justify-content-between">
-                                                <a href="#" class="small text-body link-hover">Autor</a>
-                                                <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i>data</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="latest-news-item">
-                                    <div class="bg-light rounded">
-                                        <div class="rounded-top overflow-hidden">
-                                            <img src="{{asset('assets/img/news-5.jpg')}}" class="img-zoomin img-fluid rounded-top w-100" alt="">
-                                        </div>
-                                        <div class="d-flex flex-column p-4">
-                                            <a href="#" class="h4 ">Titulo...</a>
-                                            <div class="d-flex justify-content-between">
-                                                <a href="#" class="small text-body link-hover">autor</a>
-                                                <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i>data</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Artigos End -->
                 </div>
             </div>
         </div>
